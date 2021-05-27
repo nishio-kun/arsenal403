@@ -24,7 +24,7 @@ Docker コンテナ内では system call が制限されているため、例え
 Option | Description
 --|--
 --cap-add | Add Linux capabilities
---security-opt="seccomp=unconfined"	| Turn off seccomp confinement for the container
+--security-opt="seccomp=unconfined" | Turn off seccomp confinement for the container
 
 
 上記のオプションについての詳細は、以下のドキュメントを参考にしてください。
